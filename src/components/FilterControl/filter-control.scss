@@ -1,0 +1,38 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/globals.scss";
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;  
+   border: none;
+   outline: none;
+   background-color: $white;
+   color: $text-color;
+   border-radius: 8px;
+   padding: 16px 32px 16px 16px;
+   font-size: 14px;
+   font-weight: 300;
+   width: 100%;
+   @include box-shadow(0 1px 1px $shadow-color);
+   cursor: pointer;
+}
+
+select > option {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;  
+   border: none;
+}
+
+.drop-down-holder {
+   position: relative;
+   display: flex;
+   align-items: center;
+
+   .icon-arrow-down {
+      position: absolute;
+      right: 10px;
+   }
+}
+

@@ -1,0 +1,18 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/globals.scss";
+
+.alb-button {
+  color: $text-color;
+  background-color: $white;
+  padding: 4px 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &--with-shadow {
+    @include box-shadow(0 0 6px rgba(0, 0, 0, 0.2));
+  }
+}

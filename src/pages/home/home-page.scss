@@ -1,0 +1,26 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/globals.scss";
+
+.alb-action-bar {
+  display: flex;
+  margin-top: $alb-spacing-md;
+  margin-bottom: $alb-spacing-md;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @include putRightMargin();
+  @include putLeftMargin();
+
+  &__search {
+
+  }
+
+  &__filter {
+    text-align: right;
+  }
+}
+
+@include alb-max($alb-viewport-md) {
+  .alb-action-bar__search {
+    margin-bottom: 20px;
+  }
+}

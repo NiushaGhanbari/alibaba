@@ -1,0 +1,62 @@
+// COLORS
+// ------------------------
+
+// Primary colors
+$primary-1: hsl(209, 23%, 22%);
+$primary-2: hsl(207, 26%, 17%);
+$primary-3: hsl(200, 15%, 8%);
+
+// Secondary colors
+$secondary-1: hsl(0, 0%, 20%);
+$secondary-2: hsl(0, 0%, 52%);
+$secondary-3: hsl(0, 0%, 98%);
+
+$white: hsl(0, 0%, 100%);
+
+$text-color: $secondary-1;
+$shadow-color: rgba(0, 0, 0, 0.1);
+
+// TEXT & FONTS
+// ------------------------
+
+// FAMILY
+$font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// SIZES
+$alb-font-xxs: 10px;
+$alb-font-xs: 12px;
+$alb-font-sm: 14px;
+$alb-font-md: 16px;
+$alb-font-lg: 18px; // <768 & > 768 -- 21px
+$alb-font-xl: 24px;
+$alb-font-xxl: 30px;
+
+// WEIGHT
+$font-weight-100: 100;
+$font-weight-300: 300;
+$font-weight-700: 600;
+
+// VIEWPORTS
+// ------------------------
+
+$alb-viewport-xs: 320px; //	320px - 479px - XS
+$alb-viewport-sm: 480px; //	480px - 767px - SM
+$alb-viewport-md: 768px; //	768px - 991px - MD
+$alb-viewport-lg: 992px; //	992px - 1109px - LG
+$alb-viewport-xl: 1110px; //	1110px - ∞ - XL
+
+// Special viewports
+$alb-viewport-xxl: 1200px;
+$alb-viewport-xxxl: 1360px;
+
+// banner
+$alb-sc-banner-width: 140px;
+
+// SPACING
+// ------------------------
+$alb-spacing-xs: 5px;
+$alb-spacing-sm: 10px;
+$alb-spacing-md: 15px;
+$alb-spacing-lg: 20px;
+$alb-spacing-xl: 30px; 
+$alb-spacing-xxl: 60px; 

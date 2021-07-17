@@ -1,0 +1,71 @@
+[
+  {
+    "flag": "https://flagcdn.com/w320/de.png",
+    "name": "Germany",
+    "nativeName": "Germany",
+    "population": "81,770,900",
+    "region": "Europe",
+    "subRegion": "europe",
+    "capital": "Beriln",
+    "domain": ".be",
+    "currency": "Euro (€, EUR)",
+    "languages": "Dutch, French, German",
+    "borderCountries": ["France", "Germany", "Netherlands"]
+  },
+  {
+    "flag": "https://flagcdn.com/w320/us.png",
+    "name": "United States",
+    "population": "329,345,637",
+    "region": "Americas",
+    "capital": "Washington D.C."
+  },
+  {
+    "flag": "https://flagcdn.com/w320/br.png",
+    "name": "Brazil",
+    "population": "211,173,432 ",
+    "region": "Americas",
+    "capital": "Brasília"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/de.png",
+    "name": "Germany",
+    "population": "81,770,900",
+    "region": "Europe",
+    "capital": "Beriln"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/us.png",
+    "name": "United States",
+    "population": "329,345,637",
+    "region": "Americas",
+    "capital": "Washington D.C."
+  },
+  {
+    "flag": "https://flagcdn.com/w320/br.png",
+    "name": "Brazil",
+    "population": "211,173,432 ",
+    "region": "Americas",
+    "capital": "Brasília"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/de.png",
+    "name": "Germany",
+    "population": "81,770,900",
+    "region": "Europe",
+    "capital": "Beriln"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/us.png",
+    "name": "United States",
+    "population": "329,345,637",
+    "region": "Americas",
+    "capital": "Washington D.C."
+  },
+  {
+    "flag": "https://flagcdn.com/w320/br.png",
+    "name": "Brazil",
+    "population": "211,173,432 ",
+    "region": "Americas",
+    "capital": "Brasília"
+  }
+]

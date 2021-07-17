@@ -1,0 +1,21 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/globals.scss";
+@import "../../../styles/fonts.scss";
+
+.alb-country-list {
+  display: flex;
+  flex-wrap: wrap;
+  @include putRightMargin();
+  @include putLeftMargin();
+}
+
+@include alb-max($alb-viewport-lg) {
+  .alb-country-list {
+    justify-content: center;
+  }
+}
+@include alb-min($alb-viewport-lg) {
+  .alb-country-list {
+    justify-content: space-between;
+  }
+}

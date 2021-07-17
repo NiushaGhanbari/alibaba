@@ -1,0 +1,40 @@
+@import "../../styles/mixins.scss";
+@import "../../styles/globals.scss";
+
+.alb-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 85px;
+  z-index: 1;
+  background-color: $white;
+  color: $text-color;
+  @include box-shadow(0 1px 1px $shadow-color);
+
+  &__title {
+    flex: 1;
+    font-weight: $font-weight-700;
+    @include putLeftMargin();
+    cursor: default;
+  }
+
+  &__switch-button {
+    flex: 1;
+    text-align: right;
+    @include putRightMargin();
+  }
+}
+
+@include alb-max($alb-viewport-md) {
+  .alb-header__title {
+    font-size: $alb-font-md;
+  }
+}
+@include alb-min($alb-viewport-md) {
+  .alb-header__title {
+    font-size: $alb-font-xl;
+  }
+}

@@ -1,0 +1,97 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/globals.scss";
+
+.country {
+  &__flag {
+    @include putLeftMargin();
+  }
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__detail {
+    font-size: $alb-font-sm;
+    line-height: 12px;
+    @include putLeftMargin();
+    p {
+      @include putRightMargin();
+      font-weight: $font-weight-300;
+      margin-right: 8px;
+      label {
+        font-weight: $font-weight-700;
+      }
+    }
+  }
+
+  &__title {
+    font-weight: $font-weight-700;
+    font-size: $alb-font-md;
+    margin-bottom: 8px;
+    @include putLeftMargin();
+  }
+  &__border-countries {
+    display: flex;
+    margin-top: 32px;
+    @include putLeftMargin();
+    flex-wrap: wrap;
+    label {
+      display: flex;
+      font-size: 14px;
+      font-weight: $font-weight-700;
+      margin-right: 8px;
+      align-items: center;
+    }
+    Button {
+      margin: 4px;
+    }
+  }
+  &--back-button {
+    @include putLeftMargin();
+    margin-bottom: 20px;
+  }
+}
+
+@include alb-max($alb-viewport-md) {
+  .country {
+    margin: 32px 0px;
+  }
+  .country__flag {
+    width: calc(100% - 20px);
+    margin-top: 20px;
+  }
+  .country__border-countries label {
+    margin-bottom: 10px;
+  }
+  .country__detail {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@include alb-min($alb-viewport-md) {
+  .country {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    color: #373435;
+  }
+  .country__flag {
+    width: 40%;
+  }
+  .country__detail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.jus-center {
+  justify-content: center;
+}

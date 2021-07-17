@@ -1,0 +1,50 @@
+@import "../../../styles/mixins.scss";
+@import "../../../styles/globals.scss";
+@import "../../../styles/fonts.scss";
+
+.alb-country-item {
+  margin: $alb-spacing-xl;
+  width: 270px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: $white;
+  color: #373435;
+  overflow: hidden;
+
+  a,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: #373435;
+  }
+
+  //shadow
+  @include box-shadow(0 0 6px rgba(0, 0, 0, 0.1));
+  &__flag {
+    width: 100%;
+    height: 145px;
+    background-size: cover;
+  }
+
+  &__detail-container {
+    padding: 20px;
+  }
+
+  &__detail {
+    font-size: $alb-font-sm;
+    line-height: 12px;
+    p {
+      font-weight: $font-weight-300;
+      margin-right: 8px;
+      label {
+        font-weight: $font-weight-700;
+      }
+    }
+  }
+
+  &__title {
+    font-weight: $font-weight-700;
+    font-size: $alb-font-md;
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,16 @@
+@import "styles/fonts.scss";
+@import "styles/globals.scss";
+
+body {
+  margin: 0;
+  font-family: "NunitoSans", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $secondary-3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
